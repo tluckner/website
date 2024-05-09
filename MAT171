@@ -1,0 +1,120 @@
+<html>
+<title>Tommy Luckner's Business Calculus Homepage</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+ul.a {
+    list-style-type: disc;
+}
+</style>
+
+<body class="w3-sand">
+
+<!-- Page Container -->
+<div class="w3-content w3-margin-top" style="max-width:1100px;">
+
+    <!-- The Grid -->
+    <div class="w3-row-padding">
+
+        <!-- Left Column -->
+        <div class="w3-third">
+
+            <div class="w3-white w3-text-grey w3-card-4 w3-margin-bottom">
+                <div class="w3-display-container">
+                    <img src="meme.jpg" style="width:100%" alt="Avatar">
+                </div>
+				<div class="w3-container w3-blue-gray">
+					<div class="w3-display w3-container w3-blue-gray">
+						<h2><center>MATH 151/152</center></h2>
+					</div>
+				</div>
+                <div class="w3-container">
+
+
+					<p class="w3-large"><b><i class="fa fa-star fa-fw w3-margin-right w3-text-blue-gray"></i>Announcements</b></p>
+                    <p>-Please fill out the Google Sheet on Blackboard to let me know where
+                      you are in class so I can cater the class to your needs!</p>
+                    <p>-The worksheets you find for each class contain not only problems
+                      catering to the topics listed but also explanations in my words
+                      (what I like to call "non-math words") on how to approach a topic
+                      having already seen the basics.</p>
+                    <p> <a href=syllabus.pdf> Syllabus </a> </p>
+          <hr>
+
+                    <p class="w3-large"><b><i class="fa fa-angle-double-right fa-fw w3-margin-right w3-text-blue-gray"></i>Sections</b></p>
+
+          <p><a href="#151">151 Worksheets</a></p>
+          <p><a href="152">152 Worksheets</a></p>
+					<br>
+
+        <p>  <i><b> PLEASE READ: If you intend to use the materials provided
+             please understand the author of these materials
+            is very prone to mistakes and recommends you read over the material
+             thoroughly before use! </b></i></p>
+        <!-- End Left Column -->
+				</div>
+			</div>
+		</div>
+        <!-- Right Column -->
+        <div class="w3-twothird">
+			<a id="151"></a>
+            <div class="w3-container w3-card w3-white w3-margin-bottom">
+                <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-eraser fa-fw w3-margin-right w3-xxlarge w3-text-blue-gray"></i>151 Worksheets</h2>
+                <div class="w3-container">
+              Below you will find worksheets for class listed by week.
+                <h5 class="w3-opacity"><b> <a href=syllabus.pdf> Week 1 (Syllabus) </a></b></h5>
+                <h5 class="w3-opacity"><b> <a href=151/Worksheet_1.pdf> Worksheet 1 (Precalculus Review and Limits Intro)</a> </b></h5>
+                - <a href=151/Review.pdf> Precalc Review </a> <br>
+                - <a href=151/Review_Solutions> Review Solutions </a>
+                <h5 class="w3-opacity"><b> <a href=151/Worksheet_2.pdf> Worksheet 2 (Epsilon Delta, Continuity, Infinite Limits) </a></b></h5>
+                <h5 class="w3-opacity"><b> <a href=151/Worksheet_3.pdf> Worksheet 3 (Tangent Lines, Limit Def. Of Derivative, Derivatives on Graphs) </a></b></h5>
+                <h5 class="w3-opacity"><b> <a href=151/Worksheet_4.pdf> Worksheet 4 (Derivative Rules) </a></b></h5>
+                <h5 class="w3-opacity"><b> <a href=151/Worksheet_5.pdf> Worksheet 5 (Chain Rule) </a></b></h5>
+                <h5 class="w3-opacity"><b> <a href=151/Worksheet_6.pdf> Worksheet 6 (Implicit Differentiation) </a></b></h5>
+
+                    <hr>
+                </div>
+
+            </div>
+            <h2 id="152"></h2>
+                  <div class="w3-container w3-card w3-white w3-margin-bottom">
+                      <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-pencil fa-fw w3-margin-right w3-xxlarge w3-text-blue-gray"></i>152 Worksheets</h2>
+                      <div class="w3-container">
+                        Below you will find worksheets for class listed by week.
+                          <h5 class="w3-opacity"><b> <a href=syllabus.pdf> Week 1 (Syllabus) </a></b></h5>
+                          <h5 class="w3-opacity"><b> <a href=152/Worksheet_1.pdf> Worksheet 1 (Integration by Parts, Trig Identities, Trig Substitution) </a> </b></h5>
+                          <h5 class="w3-opacity"><b> <a href=152/Worksheet_2.pdf> Worksheet 2 (Partial Fraction Decomp and Integral Approximations and Errors) </a></b></h5>
+                          <h5 class="w3-opacity"><b> <a href=152/Worksheet_3.pdf> Worksheet 3 (Improper Integrals) </a></b></h5>
+                          <h5 class="w3-opacity"><b> <a href=152/Worksheet_4.pdf> Worksheet 4 (Sequences and Series Intro) </a></b></h5>
+                            <h5 class="w3-opacity"><b> <a href=152/Worksheet_5.pdf> Worksheet 5 (0-Test, Telescoping and Geometric Series) </a></b></h5>
+                            <h5 class="w3-opacity"><b> <a href=152/Worksheet_6.pdf> Worksheet 6 (Integral Test and Remainder Estimate, P-Series) </a></b></h5>
+  <hr>
+
+                                              </div>
+              </div>
+
+
+			</div>
+
+        <!-- End Right Column -->
+        </div>
+
+    <!-- End Grid -->
+    </div>
+
+    <!-- End Page Container -->
+</div>
+
+<footer class="w3-container w3-blue-gray w3-center w3-margin-top">
+    <p>Find me on LinkedIn as well.</p>
+	<a style="text-decoration:none" href="https://www.linkedin.com/in/tommy-luckner/" id="profile-link" <i class="fa fa-linkedin w3-hover-opacity"> </a></i>
+    <p>Special thanks to the lovely folks at <a href="https://www.w3schools.com" target="_top"> W3Schools</a>!</p>
+</footer>
+
+</body>
+</html>
