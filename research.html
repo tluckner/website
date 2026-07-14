@@ -1,0 +1,95 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Research | Thomas Luckner, Ph.D.</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <style>
+        :root { --bg-color: #e8e9eb; --container-bg: #ffffff; --text-color: #333; --link-color: #555; }
+        body.dark-mode { --bg-color: #1a1a1a; --container-bg: #2d2d2d; --text-color: #e0e0e0; --link-color: #bbb; }
+        
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; 
+            line-height: 1.6; background-color: var(--bg-color); color: var(--text-color);
+            transition: background 0.3s, color 0.3s; margin: 0; padding: 60px 0;
+        }
+        .page-container {
+            background-color: var(--container-bg); max-width: 850px; margin: 0 auto; 
+            padding: 40px 60px; box-shadow: 0 0 40px rgba(0,0,0,0.1);
+        }
+        header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; }
+        h1 { font-family: "Georgia", serif; font-size: 1.8em; margin: 0; }
+        nav a { margin-left: 20px; text-decoration: none; color: var(--link-color); font-weight: 500; }
+        nav a:hover { color: #8c1515; }
+        
+        section { margin-top: 40px; }
+        h2 { border-bottom: 1px solid #eee; padding-bottom: 10px; margin-top: 40px; }
+        ul { list-style-type: none; padding: 0; }
+        li { margin-bottom: 25px; }
+        .pub-title { font-weight: bold; display: block; }
+        .pub-info { color: #555; font-size: 0.95em; }
+        
+        #dark-mode-toggle { cursor: pointer; font-size: 1.2em; background: none; border: none; color: var(--text-color); }
+    </style>
+</head>
+<body>
+
+<div class="page-container">
+    <header>
+        <h1>Research</h1>
+        <nav>
+            <a href="index.html">About</a>
+            <a href="research.html">Research</a>
+            <a href="teaching.html">Teaching</a>
+            <a href="CV_24.pdf">CV</a>
+            <a href="Philosophy.pdf">Philosophy</a>
+            <button id="dark-mode-toggle" aria-label="Toggle Dark Mode">🌙</button>
+        </nav>
+    </header>
+    <hr>
+
+    <section>
+        <h2>Publications</h2>
+        <ul>
+            <li>
+                <span class="pub-title">On nth order Euler polynomials of degree n that are Eisenstein</span>
+                <span class="pub-info">M. Filaseta and T. Luckner, Indagationes Mathematicae, Vol. 35, 1 (2024)</span>
+            </li>
+            <li>
+                <span class="pub-title">Generalized Sierpiński Numbers</span>
+                <span class="pub-info">M. Filaseta, R. Groth and T. Luckner, Colloquium Mathematicum, Vol. 174, 2 (2023)</span>
+            </li>
+            <li>
+                <span class="pub-title">Consecutive primes which are widely digitally delicate and Brier numbers</span>
+                <span class="pub-info">M. Filaseta, J. Juillerat and T. Luckner, Integers, 23 (2023)</span>
+            </li>
+            <li>
+                <span class="pub-title">Widely digitally delicate Brier primes and irreducibility results for some classes of polynomials</span>
+                <span class="pub-info">T. Luckner, Dissertation, Proquest (2023)</span>
+            </li>
+        </ul>
+
+        <h2>In Progress</h2>
+        <ul>
+            <li>
+                <span class="pub-title">Unitary Unstable Primes</span>
+                <span class="pub-info">J. Juillerat and T. Luckner</span>
+            </li>
+            <li>
+                <span class="pub-title">d-Translated Unit Sensitive Primes</span>
+                <span class="pub-info">T. Luckner and R. Philpott</span>
+            </li>
+        </ul>
+    </section>
+</div>
+
+<script>
+    const toggle = document.getElementById('dark-mode-toggle');
+    toggle.addEventListener('click', () => {
+        document.body.classList.toggle('dark-mode');
+        toggle.textContent = document.body.classList.contains('dark-mode') ? '☀️' : '🌙';
+    });
+</script>
+
+</body>
+</html>
