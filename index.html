@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Thomas Luckner</title>
     <style>
-        :root { --bg-color: #ffffff; --text-color: #333; --link-color: #555; }
+        :root { --bg-color: #fcfcfc; --text-color: #333; --link-color: #555; }
         body.dark-mode { --bg-color: #1a1a1a; --text-color: #e0e0e0; --link-color: #bbb; }
         
         body { 
@@ -12,28 +12,32 @@
             line-height: 1.6; 
             background-color: var(--bg-color); 
             color: var(--text-color); 
-            max-width: 800px; 
-            margin: 40px auto; 
-            padding: 0 20px; 
+            /* This shadow creates a "frame" effect that fills the channel space nicely */
+            box-shadow: 0 0 40px rgba(0,0,0,0.05);
+            max-width: 850px; 
+            margin: 60px auto; 
+            padding: 40px 60px; 
             transition: background 0.3s, color 0.3s;
         }
+        
         header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 50px; }
         nav a { margin-left: 20px; text-decoration: none; color: var(--link-color); font-weight: 500; }
-        nav a:hover { color: #8c1515; } /* Flagler Red accent on hover */
+        nav a:hover { color: #8c1515; }
         
-        /* Updated Image Styling: Square with Flagler-inspired border */
+        /* Removed border and added slight shadow to image */
         .profile-img { 
             width: 200px; 
-            border: 4px solid #8c1515; 
+            border: none; 
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
             float: left; 
             margin-right: 30px; 
             margin-bottom: 20px; 
         }
         
         #dark-mode-toggle { cursor: pointer; font-size: 1.2em; background: none; border: none; color: var(--text-color); }
-        h1 { margin: 0; }
+        h1 { margin: 0; font-size: 1.8em; }
         section { margin-bottom: 40px; }
-        footer { border-top: 1px solid #eee; padding-top: 20px; font-size: 0.9em; color: #777; }
+        footer { border-top: 1px solid #eee; margin-top: 50px; padding-top: 20px; font-size: 0.9em; color: #777; }
     </style>
 </head>
 <body>
