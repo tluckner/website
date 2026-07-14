@@ -1,251 +1,45 @@
-<html>
-<title>Tommy Luckner's Homepage</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
-ul.a {
-    list-style-type: disc;
-}
-</style>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thomas Luckner</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 40px auto; padding: 0 20px; }
+        header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 50px; }
+        nav a { margin-left: 20px; text-decoration: none; color: #555; font-weight: 500; }
+        nav a:hover { color: #000; }
+        .profile-img { width: 200px; border-radius: 50%; float: left; margin-right: 30px; margin-bottom: 20px; }
+        h1 { margin: 0; }
+        section { margin-bottom: 40px; }
+        footer { border-top: 1px solid #eee; padding-top: 20px; font-size: 0.9em; color: #777; }
+    </style>
+</head>
+<body>
 
-<body class="w3-dark-grey">
+<header>
+    <h1>Thomas Luckner</h1>
+    <nav>
+        <a href="#about">About</a>
+        <a href="research.html">Research</a>
+        <a href="teaching.html">Teaching</a>
+        <a href="CV_24.pdf">CV</a>
+        <a href="Philosophy.pdf">Philosophy</a>
+    </nav>
+</header>
 
-<!-- Page Container -->
-<div class="w3-content w3-margin-top" style="max-width:1100px;">
+<section id="about">
+    <img src="Headshot2023.jpeg" alt="Thomas Luckner" class="profile-img">
+    <p>Dr. Thomas Luckner is an Assistant Professor of Mathematics at Flagler College in the Department of Mathematics and Technology. He has just finished his first year at Flagler and is excited for many more!</p>
+    
+    <p>In his teaching, Dr. Luckner focuses on three things: the class, the person, and the why. Although his approach may vary from course to course, he strives for a comfortable, engaging classroom environment with plenty of peer-on-peer interaction while challenging students in ways they have not been challenged before.</p>
+    
+    <p>Dr. Luckner has an active research agenda and is well-connected in the mathematics community. His research falls under the large umbrella of Number Theory. He has recently begun studying data analytics in sports and plans to use this knowledge for more undergraduate research projects.</p>
+    
+    <p>Outside of his career, Dr. Luckner is a life-long New York Yankees fan and an avid craft beer collector. Feel free to contact him for potential research collaborations or to discuss mathematics, sports analytics, or craft beer.</p>
+</section>
 
-    <!-- The Grid -->
-    <div class="w3-row-padding">
-
-        <!-- Left Column -->
-        <div class="w3-third">
-
-            <div class="w3-white w3-text-black w3-card-4 w3-margin-bottom">
-                <div class="w3-display-container">
-                    <img src="Headshot2023.jpeg" style="width:100%" alt="Avatar">
-			<br>
-                </div>
-				<div class="w3-container w3-white">
-					<div class="w3-display w3-container w3-red">
-					<h2><center>Dr. Thomas Luckner</center></h2>
-					</div>
-				</div>
-		    <br>
-                <div class="w3-container">
-		<h6 class="w3-opacity, w3-text-black"><i class="fa fa-id-badge fa-fw w3-margin-right"></i><b>Assistant Professor of Mathematics </b></h6>
-			
-                    <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-black"></i>St. Augustine, FL</p>
-                    <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-black"></i>tluckner@flagler.edu</p>
-                    <p><i class="fa fa-file-text fa-fw w3-margin-right w3-large w3-text-black"></i> <a href="CV_24.pdf">Curriculum Vitae (May 2024)</a> </p>
-		    <p><i class="fa fa-file-text fa-fw w3-margin-right w3-large w3-text-black"></i> <a href="Philosophy.pdf">Teaching Philosophy (2023) </a> </p>
-                    <p><i class="fa fa-file-text fa-fw w3-margin-right w3-large w3-text-black"></i> <a href="Research_Statement.pdf">Research Statement (2023)</a> </p>
-                    <p><i class="fa fa-file-text fa-fw w3-margin-right w3-large w3-text-black"></i> <a href="Diversity_Statement.pdf">Diversity Statement (2023)</a> </p>
-
-                    <hr>
-
-					<p class="w3-large"><b><i class="fa fa-angle-double-right fa-fw w3-margin-right w3-text-black"></i>Sections</b></p>
-                    <p><a href="#about">About Me</a></p>
-                    <p><a href="#publications">Publications and Preprints</a></p>
-			<p><a href="#current">Current Teaching</a></p>
-			 <p><a href="#jobs">Previous Positions</a></p>
-					
-
-          <hr>
-
-                    <p class="w3-large"><b><i class="fa fa-calculator fa-fw w3-margin-right w3-text-black"></i>Courses</b></p>
-		 	<h6 class="w3-opacity, w3-text-black"><b>Flagler College </b></h6>
-			<p> <a href=MAT171.html> MAT 171 Business Calculus </a> </p>
-			<p> <a href=MAT171.html> MAT ??? Special Topics: Complex Variables </a> </p>
-			<p> <a href=MATH151152s21/MATH_151152_s21.html> MAT 201 Calculus I </a> </p>
-			<p> <a href=MATH151152s21/MATH_151152_s21.html> MAT 203 Calculus III </a> </p>
-			<p> <a href=MATH151152s21/MATH_151152_s21.html> MAT 331 Abstract Algebra </a> </p>
-			<p> <a href=MATH151152s21/MATH_151152_s21.html> MAT 335 Number Theory  </a> </p>
-			<p> <a href=MATH151152s21/MATH_151152_s21.html> CIS 115 Introduction to Python </a> </p>
-		<h6 class="w3-opacity, w3-text-black"><b>University of South Carolina </b></h6>
-                    <p> <a href=MATH111f22/MATH_111_f22.html> MATH 111 College Algebra </a> </p>
-                    <p> <a href=MATH115s22/MATH_115_s22.html> MATH 115 Precalculus </a> </p>
-		    <p> <a href=MATH344Lf20/MATH_344L_f20.html> MATH 122 Business Calculus</a> </p>
-		    <p> <a href=MATH151152s21/MATH_151152_s21.html> MATH 151/152 Calculus I and Calculus II Workshop </a> </p>
-		    <p> <a href=MATH241sum22/MATH_241_sum22.html> MATH 241 Vector Calculus </a> </p>
-                    <p> <a href=MATH374sum21/MATH_374_sum21.html> MATH 344/544 Linear Algebra </a> </p>
-                    <p> <a href=MATH151152s21/MATH_151152_s21.html> MATH 344L/544L Linear Algebra Lab</a> </p>
-		    <p> <a href=MATH111f21/MATH_111_f21.html> MATH 374 Discrete Structures </a> </p>
-					<hr>
-
-					<p class="w3-large"><b><i class="fa fa-laptop fa-fw w3-margin-right w3-text-black"></i>Programming Experience</b></p>
-		<p> Python (also SageMath) </p>	
-		<p>C++</p>
-                    <p>C</p>
-                    <p>MATLAB</p>
-		<p>Maplesoft</p>
-<br>
-
-        <!-- End Left Column -->
-				</div>
-			</div>
-		</div>
-        <!-- Right Column -->
-        <div class="w3-twothird">
-			<a id="about"></a>
-            <div class="w3-container w3-card w3-white w3-margin-bottom">
-                <h2 class="w3-padding-16, w3-red"><i class="fa fa-id-card-o fa-fw w3-margin-right w3-xxlarge"></i>About Me</h2>
-                <div class="w3-container">
-		<h5 class="w3-opacity, w3-text-black"><b>General</b></h5>
-			 -  Dr. Thomas Luckner is an Assistant Professor of Mathematics at Flagler College in the Department of Mathematics and Technology. 
-				He has just finished his first year at Flagler and is excited for many more! 
-			<br>
-				<br>
-			-In his teaching, Dr. Luckner focuses on three things; the class, the person, and the why. Although his approach may vary from course to course, he strives for a comfortable, 
-			engaging classroom environment with plenty of peer-on-peer interaction while challenging students in ways they have not been challenged before. Check out his 
-			teaching philosophy to learn more!
-			<br>
-				<br>
-			-Dr. Luckner has an active research agenda and is well-connected in the mathematics community. His research falls under the large umbrella of Number Theory although recently
-			his work has been focused on digitally delicate primes and the irreducibility of Taylor series generated polynomials using methods such as Newton polygons and Eisenstein's criterion. 
-			Currently Dr. Luckner has two undergraduate students conducting research under his supervision: Jamie Philpott (email: Philpott702 (at) flagler (dot) edu) and Christina Mark (email: Mark192 (at) flagler (dot) edu). 
-			Jamie is in the last stages of his project on unit sensitive primes. Christina is an honors student who will be conducting her honors capstone under Dr. Luckner's supervision starting this fall in 
-			mathematical biology. Christina will also be taking on a small project on visible lattice points in the upcoming academic year. 
-			<br>
-				<br>
-			-Dr. Luckner has recently begun studying data analytics in sports and plans to use this knowledge for more undergraduate research projects and some cross-discpline projects as well. He is looking for any students
-			interested in conducting research in Number Theory or working on some projects in sports analytics for the next academic year. Please email me if interested!
-			<br>
-				<br>
-			-Outside of his career, Dr. Luckner has many hobbies and interests. He is a life-long New York Yankees fan and would love to discuss how great the Yankees are. He is also a supporter of University of South Carolina 
-			having earned his doctorate from USC (the real one). He also enjoys playing sports himself although he is not the athlete he used to be. Lastly, he is an avid craft beer fan/collector and loves to travel 
-			for beer festivals as much as he can!  Come talk to me about any of the above or email me!</h6>
-			<hr>
-					<h5 class="w3-opacity, w3-text-black"><b>Education</b></h5>
-					<h6 class="w3-text-black"><i class="fa fa-graduation-cap fa-fw w3-margin-right"></i>Doctor of Philosophy, Mathematics, University of South Carolina, 2023</h6>
-					<h6 class="w3-text-black"><i class="fa fa-graduation-cap fa-fw w3-margin-right"></i>Bachelors of Science, Mathematics and Economics, Eastern Conn. State Univ., 2018</h6>
-		</p><br>		
-		</div>
-            </div>
-        
-			<h2 id="publications"></h2>
-            <div class="w3-container w3-card w3-margin-bottom, w3-white">
-                <h2 class="w3-padding-16, w3-red"><i class="fa fa-book fa-fw w3-margin-right w3-xxlarge"></i>Publications and Preprints</h2>
-                <div class="w3-container, w3-white">
-		<h6 class="w3-text-black"><i class="fa fa-book fa-fw w3-margin-right"></i>M. Filaseta and T. Luckner,<a href="https://www.sciencedirect.com/science/article/pii/S001935772300085X"> <em>On $n$th order Euler polynomials of degree $n$ that are Eisenstein</em></a>, Ind. Math. (2024) </h6>
-                <h6 class="w3-text-black"><i class="fa fa-book fa-fw w3-margin-right"></i>M. Filaseta, R. Groth and T. Luckner, <a href="https://arxiv.org/abs/2305.09219"> <em>Generalized Sierpiński Numbers</em></a>, Col. Math., online (2023) </h6>
-		<h6 class="w3-text-black"><i class="fa fa-book fa-fw w3-margin-right,"></i>T. Luckner, Dissertation: <a href="https://scholarcommons.sc.edu/etd/7455/"> <em>Widely digitally delicate Brier primes and irreducibility results for some classes of polynomials</em></a>, Proquest (2023) </h6>
-		<h6 class="w3-text-black"><i class="fa fa-book fa-fw w3-margin-right"></i>M. Filaseta, J. Juillerat and T. Luckner, <a href="https://arxiv.org/abs/2209.10646"> <em>Consecutive primes which are widely digitally delicate and Brier numbers</em></a>, Integers, 23 (2023) </h6>
-		</div>
-		    <br>
-			</div>
-  
-			<h2 id="current"></h2>
-			<div class="w3-container w3-card w3-white w3-margin-bottom">
-				 <h2 class="w3-red w3-padding-16"><i class="fa fa-university fa-fw w3-margin-right w3-xxlarge"></i>Current Classes</h2>
-				
-	<h6 class="w3-text-black"><i class="fa fa-check-square-o fa-fw w3-margin-right"></i>  <a href=MAT171.html> MAT 171 Business Calculus </a> </h6>
-	<hr>
-       <h6 class="w3-text-black"><i class="fa fa-check-square-o fa-fw w3-margin-right"></i>  <a href=MATH111f22/MATH_111_f22.html> Calculus I </a> </h6>
-	<hr>
-	<h6 class="w3-text-black"><i class="fa fa-check-square-o fa-fw w3-margin-right"></i>  <a href=MATH111f22/MATH_111_f22.html> Introduction to Python </a> </h6>
-        <br>
-        </div>
-
-		<h2 id="jobs"></h2>
-                  <div class="w3-container w3-card w3-white w3-margin-bottom">
-                      <h2 class="w3-red w3-padding-16"><i class="fa fa-briefcase fa-fw w3-margin-right w3-xxlarge"></i>Previous Positions and Achievements</h2>
-                      <div class="w3-container">
-                          <h5 class="w3-opacity, w3-text-black"><b>Positions</b></h5>
-                           <p>
-                          	<table class="w3-table w3-bordered, w3-text-black">
-                              <tr>
-                                  <th>Company</th>
-                                  <th>Position</th>
-                                  <th>When</th>
-                              </tr>
-				<tr>
-                                  <td>University of SC</td>
-                                  <td>Graduate Instructor</td>
-                                  <td>August 2018 - July 2023</td>
-                              </tr>
-					 <tr>
-                                              <td>University of SC</td>
-                                              <td>Peer Mentor</td>
-                                              <td>August 2021 - May 2022</td>
-                                          </tr>
-                              <tr>
-                                  <td>Thule Inc.</td>
-                                  <td>Dist. and Logistics Intern</td>
-                                  <td>Summer 2018</td>
-                              </tr>
-
-                              <tr>
-                                  <td>Analog Devices Inc.</td>
-                                  <td>Cyber Security Engineering Intern</td>
-                                  <td>Summer 2017</td>
-                              </tr>
-
-                            </table>
-                       </p>
-                       <br>
-                                  </div>
-			  <hr>
-                                  <div class="w3-container">
-                                      <h5 class="w3-opacity, w3-text-black"><b>Academic Achievements</b></h5>
-                                       <p>
-                                        <table class="w3-table w3-bordered, w3-text-black">
-
-                                          <tr>
-                                              <th>School</th>
-                                              <th>Position</th>
-                                              <th>When</th>
-                                          </tr>
-                                          <tr>
-                                              <td>University of SC - Dept. of Math.</td>
-                                              <td>Outstanding Grad. Teaching Award </td>
-                                              <td>May 2022</td>
-                                          </tr>
-                                         
-                                          <tr>
-                                              <td>University of SC</td>
-                                              <td>Peer Mentor Training</td>
-                                              <td>January 2021 - August 2021</td>
-                                          </tr>
-                                          <tr>
-                                              <td>University of SC</td>
-                                              <td>20th Palmetto High School Math Contest Co-Coord.</td>
-                                              <td>March 2020</td>
-                                          </tr>
-
-                                          <tr>
-                                              <td>University of SC</td>
-                                              <td>19th Palmetto High School Math Contest Assistant</td>
-                                              <td>February 2019</td>
-					  </tr>
-
-                                          <tr>
-                                              <td>Eastern Conn. St. Univ.</td>
-                                              <td>Mathematics Tutor</td>
-                                              <td>October 2014 - May 2018</td>
-                                          </tr>
-
-                                        </table>
-                                   </p>
-                                   <br>
-				  </div>
-		  </div>
-        <!-- End Right Column -->
-        </div>
-
-    <!-- End Grid -->
-    </div>
-
-    <!-- End Page Container -->
-</div>
-
-<footer class="w3-container w3-red w3-center w3-margin-top">
-    <p>Find me on LinkedIn as well.</p>
-	<a style="text-decoration:none" href="https://www.linkedin.com/in/tommy-luckner/" id="profile-link" <i class="fa fa-linkedin w3-hover-opacity"> </a></i>
-    <p>Special thanks to <a href="https://www.w3schools.com" target="_top"> W3Schools</a>!</p>
+<footer>
+    <p>&copy; 2026 Thomas Luckner. | <a href="mailto:tluckner@flagler.edu">Email</a> | <a href="https://www.linkedin.com/in/tommy-luckner/">LinkedIn</a></p>
 </footer>
 
 </body>
