@@ -1,0 +1,86 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teaching | Thomas Luckner, Ph.D.</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <style>
+        :root { --bg-color: #e8e9eb; --container-bg: #ffffff; --text-color: #333; --link-color: #555; }
+        body.dark-mode { --bg-color: #1a1a1a; --container-bg: #2d2d2d; --text-color: #e0e0e0; --link-color: #bbb; }
+        
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; 
+            line-height: 1.6; background-color: var(--bg-color); color: var(--text-color);
+            transition: background 0.3s, color 0.3s; margin: 0; padding: 60px 0;
+        }
+        .page-container {
+            background-color: var(--container-bg); max-width: 850px; margin: 0 auto; 
+            padding: 40px 60px; box-shadow: 0 0 40px rgba(0,0,0,0.1);
+        }
+        header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; }
+        h1 { font-family: "Georgia", serif; font-size: 1.8em; margin: 0; }
+        nav a { margin-left: 20px; text-decoration: none; color: var(--link-color); font-weight: 500; }
+        nav a:hover { color: #8c1515; }
+        
+        section { margin-top: 40px; }
+        h2 { border-bottom: 1px solid #eee; padding-bottom: 10px; margin-top: 40px; }
+        ul { list-style-type: none; padding: 0; }
+        li { margin-bottom: 15px; }
+        .course-title { font-weight: bold; }
+        .course-semesters { color: #777; font-size: 0.9em; display: block; }
+        
+        #dark-mode-toggle { cursor: pointer; font-size: 1.2em; background: none; border: none; color: var(--text-color); }
+    </style>
+</head>
+<body>
+
+<div class="page-container">
+    <header>
+        <h1>Teaching</h1>
+        <nav>
+            <a href="index.html">About</a>
+            <a href="research.html">Research</a>
+            <a href="teaching.html">Teaching</a>
+            <a href="CV_24.pdf">CV</a>
+            <a href="Philosophy.pdf">Philosophy</a>
+            <button id="dark-mode-toggle" aria-label="Toggle Dark Mode">🌙</button>
+        </nav>
+    </header>
+    <hr>
+
+    <section>
+        <h2>Flagler College</h2>
+        <ul>
+            <li><span class="course-title">MAT 171: Business Calculus</span><br><span class="course-semesters">Fall 2026, Sum. 2026, Spring 2026, Fall 2025, Sum. 2025, Spring 2025, Fall 2024, Sum. 2024, Spring 2024, Fall 2023</span></li>
+            <li><span class="course-title">MAT 201: Calculus I</span><br><span class="course-semesters">Fall 2024</span></li>
+            <li><span class="course-title">MAT 203: Calculus III</span><br><span class="course-semesters">Spring 2026, Spring 2025, Spring 2024, Fall 2023</span></li>
+            <li><span class="course-title">MAT 331: Abstract Algebra</span><br><span class="course-semesters">Spring 2026, Spring 2024</span></li>
+            <li><span class="course-title">MAT 335: Number Theory</span><br><span class="course-semesters">Fall 2025, Fall 2023</span></li>
+            <li><span class="course-title">MAT 401: Real Analysis</span><br><span class="course-semesters">Spring 2025</span></li>
+            <li><span class="course-title">CIS 115: Introduction to Python</span><br><span class="course-semesters">Fall 2026, Fall 2025, Spring 2024, Fall 2024, Spring 2024</span></li>
+        </ul>
+
+        <h2>University of South Carolina</h2>
+        <ul>
+            <li><span class="course-title">MATH 111: Basic College Mathematics</span><br><span class="course-semesters">Fall 2022, Fall 2021</span></li>
+            <li><span class="course-title">MATH 115: Precalculus</span><br><span class="course-semesters">Spring 2022, Fall 2019</span></li>
+            <li><span class="course-title">MATH 122: Calculus for Business and Science</span><br><span class="course-semesters">Spring 2020, Summer 2019</span></li>
+            <li><span class="course-title">MATH 151/152: Calculus I/II Workshops</span><br><span class="course-semesters">Spring 2023, Fall 2022, Spring 2021</span></li>
+            <li><span class="course-title">MATH 241: Vector Calculus</span><br><span class="course-semesters">Summer 2022</span></li>
+            <li><span class="course-title">MATH 334L/544L: Applied Linear Algebra Lab</span><br><span class="course-semesters">Fall 2020, Summer 2020</span></li>
+            <li><span class="course-title">MATH 344: Applied Linear Algebra</span><br><span class="course-semesters">Summer 2020</span></li>
+            <li><span class="course-title">MATH 374: Discrete Structures</span><br><span class="course-semesters">Summer 2021</span></li>
+        </ul>
+    </section>
+</div>
+
+<script>
+    const toggle = document.getElementById('dark-mode-toggle');
+    toggle.addEventListener('click', () => {
+        document.body.classList.toggle('dark-mode');
+        toggle.textContent = document.body.classList.contains('dark-mode') ? '☀️' : '🌙';
+    });
+</script>
+
+</body>
+</html>
